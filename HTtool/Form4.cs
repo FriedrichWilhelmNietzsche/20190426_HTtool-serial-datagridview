@@ -276,7 +276,7 @@ namespace HTtool
         #region 串口接受事件Sp_DataReceived
         private void Sp_DataReceived(object sender, SerialDataReceivedEventArgs e)//串口接受事件
         {
-            try
+            try  
             {
                 if(this.sp.BytesToRead > 0)
                 {

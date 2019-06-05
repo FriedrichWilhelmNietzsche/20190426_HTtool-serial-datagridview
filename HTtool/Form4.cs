@@ -263,7 +263,7 @@ namespace HTtool
         //            //依次的拼接出16进制字符串  
         //            foreach (byte b in buf)
         //            {
-        //                Rev_builder.Append(b.ToString("X2") + " ");
+        //                Rev_builder.Append(b.ToString("X2") + " ");  
         //            }
         //        }
         //        this.tbxRcvData.AppendText(Rev_builder.ToString());//接受数据显示在文本框
